@@ -1,4 +1,4 @@
-import "../styles/Symptoms.css";
+import "../styles/Pages.css";
 
 function Symptoms() {
   return (
@@ -8,13 +8,13 @@ function Symptoms() {
         Common experiences during perimenopause and menopause. Every journey is
         different.
       </p>
-      <div className="symptom-grid">
-        <div className="symptom-card">🔥 Hot flushes</div>
-        <div className="symptom-card">🌙 Night sweats</div>
-        <div className="symptom-card">😴 Sleep disruption</div>
-        <div className="symptom-card">🧠 Brain fog</div>
-        <div className="symptom-card">💭 Mood changes</div>
-        <div className="symptom-card">🌸 Body changes</div>
+      <div className="card-grid">
+        <div className="card-item">🔥 Hot flushes</div>
+        <div className="card-item">🌙 Night sweats</div>
+        <div className="card-item">😴 Sleep disruption</div>
+        <div className="card-item">🧠 Brain fog</div>
+        <div className="card-item">💭 Mood changes</div>
+        <div className="card-item">🌸 Body changes</div>
       </div>
     </div>
   );
